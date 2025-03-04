@@ -7,7 +7,7 @@ import { authenticate } from "./authenticate";
 import { profile } from "./profile";
 import { Verify } from "crypto";
 import { verifyJWT } from "src/http/middlewares/verify-jwt";
-import { getAllUsers } from "./getall";
+import { getAllUsers } from "./getAll";
 
 
 export function userRoutes( app : FastifyInstance  ) {
